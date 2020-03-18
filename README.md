@@ -15,7 +15,6 @@ There are 2 types of boss bars.
 - BossBar: is used for shared data, so all registered players see the same bar.
 - DiverseBossBar: is used for unique data, their data can be changed per player. They can also be set in a batch for multiple players, and will use default values if no specific data is set for a player. The default data is set like on a shared BossBar
 ## API & usage
-A very basic example can be seen here: [BossBarTest](https://github.com/thebigsmileXD/BossBarTest). For a more advanced example you could check out [BossAnnouncement](https://github.com/thebigsmileXD/BossAnnouncement)
 
 Create a new boss bar
 ```php
@@ -87,10 +86,9 @@ $bar->setPercentageFor(array $players);
 $bar->getPercentageFor(Player $player);
 ```
 ## Disclaimer & Information
-Coded and maintained by XenialDan
+Originally Coded by XenialDan
+Forked from https://github.com/thebigsmileXD/apibossbar and updated by 95CivicSi for BreathTakinglyBinary
 
 Feel free to open issues with suggestions and bug reports. Please leave as much information as possible to help speeding up the debugging of the issues.
-
-This is a full rework of [BossBarAPI](https://github.com/thebigsmileXD/BossBarAPI). Plugins that used this virion should be upgraded to apibossbar ASAP
 
 Colors and overlays do not work due to not being properly implemented in the client (They use data from the resource pack definitions file). #blamemojang for copy-paste leftovers from Minecraft: Java Edition
