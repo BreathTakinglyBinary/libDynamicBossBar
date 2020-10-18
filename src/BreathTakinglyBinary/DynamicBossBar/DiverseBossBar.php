@@ -168,7 +168,6 @@ class DiverseBossBar extends BossBar{
             $pkc = clone $pk;
             $pkc->attributes = $this->getAttributeMap($player)->getAll();
             $pkc->metadata = $this->getPropertyManager($player)->getAll();
-            #var_dump($this->getPropertyManager()->getAll());
             $pkc->position = $player->asVector3()->subtract(0, 28);
             $player->dataPacket($pkc);
         }

@@ -1,5 +1,5 @@
 name: DynamicBossBar
-version: 0.0.4
+version: 0.0.5
 antigen: BreathTakinglyBinary\DynamicBossBar
 api: [3.9, 4.0.0]
 php: [7.2]
